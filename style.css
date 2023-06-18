@@ -3,7 +3,7 @@
   --white: #ffffff;
   --black: #000;
   --yellow: #fbff22;
-  --gray:#999999
+  --gray: #999999
 }
 
 body {
@@ -406,4 +406,32 @@ footer {
   99.62% {
     opacity: 1;
   }
+}
+
+/* cv-header */
+.cv-header {
+  background-color: #131313;
+  padding: 30px 30px;
+}
+.cv-header h2 {
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 48px;
+}
+.cv-header h3 {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 48px;
+color: var(--yellow);
+}
+.cv-header p {
+  color: var(--white);
+}
+.profile-content {
+  padding: 30px;
 }
